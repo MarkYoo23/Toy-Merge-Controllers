@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toy.Merge.API", "Toy.Merge.API\Toy.Merge.API.csproj", "{4D05FFB2-6747-47C4-8CBF-003DA138233C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Merge", "Merge", "{D79EA7CD-3BD4-450C-8C0A-6AF456A5FC1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{2EF48E94-F200-4C40-B036-3DD06F6198C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toy.User.API", "Toy.User.API\Toy.User.API.csproj", "{A5F809EF-1069-44DA-B2B9-443A37BC43BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toy.User.Component", "Toy.User.Component\Toy.User.Component.csproj", "{23133298-735E-4CE0-AA68-3CC0448F62DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{20AF17A3-51EC-4C9E-BB1B-D3C112C6083F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toy.Sample.API", "Toy.Sample.API\Toy.Sample.API.csproj", "{36556CF9-AA06-4E62-B6A0-CE5C1342E9E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toy.Sample.Component", "Toy.Sample.Component\Toy.Sample.Component.csproj", "{ECB832C1-8E3A-4064-9041-7A2E9ED125AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D05FFB2-6747-47C4-8CBF-003DA138233C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D05FFB2-6747-47C4-8CBF-003DA138233C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D05FFB2-6747-47C4-8CBF-003DA138233C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D05FFB2-6747-47C4-8CBF-003DA138233C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F809EF-1069-44DA-B2B9-443A37BC43BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F809EF-1069-44DA-B2B9-443A37BC43BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F809EF-1069-44DA-B2B9-443A37BC43BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F809EF-1069-44DA-B2B9-443A37BC43BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23133298-735E-4CE0-AA68-3CC0448F62DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23133298-735E-4CE0-AA68-3CC0448F62DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23133298-735E-4CE0-AA68-3CC0448F62DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23133298-735E-4CE0-AA68-3CC0448F62DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36556CF9-AA06-4E62-B6A0-CE5C1342E9E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36556CF9-AA06-4E62-B6A0-CE5C1342E9E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36556CF9-AA06-4E62-B6A0-CE5C1342E9E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36556CF9-AA06-4E62-B6A0-CE5C1342E9E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB832C1-8E3A-4064-9041-7A2E9ED125AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB832C1-8E3A-4064-9041-7A2E9ED125AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB832C1-8E3A-4064-9041-7A2E9ED125AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB832C1-8E3A-4064-9041-7A2E9ED125AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D05FFB2-6747-47C4-8CBF-003DA138233C} = {D79EA7CD-3BD4-450C-8C0A-6AF456A5FC1C}
+		{A5F809EF-1069-44DA-B2B9-443A37BC43BD} = {2EF48E94-F200-4C40-B036-3DD06F6198C2}
+		{23133298-735E-4CE0-AA68-3CC0448F62DA} = {2EF48E94-F200-4C40-B036-3DD06F6198C2}
+		{36556CF9-AA06-4E62-B6A0-CE5C1342E9E5} = {20AF17A3-51EC-4C9E-BB1B-D3C112C6083F}
+		{ECB832C1-8E3A-4064-9041-7A2E9ED125AA} = {20AF17A3-51EC-4C9E-BB1B-D3C112C6083F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46B15915-1AC7-4764-BF36-32AA7F9CE623}
+	EndGlobalSection
+EndGlobal
